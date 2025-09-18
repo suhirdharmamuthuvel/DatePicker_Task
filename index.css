@@ -1,0 +1,120 @@
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: rgb(218, 216, 216); 
+    padding-top: 80px;
+}
+.main{
+    width: 50%;
+    position: relative;
+    height: 462px;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    box-shadow: 2px 2px 9px rgb(63, 63, 63);
+}
+.sub1{
+    height: 70px;
+    background-color: #EEEEEE;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+input{
+    width: 280px;
+    height: 30px;
+    font-size: x-large;
+    border:1px solid #888888 ;
+    font-weight: bold;
+    box-shadow: 2px 2px 7px rgb(103, 81, 133);
+    background-color: #DDDDDD;
+}
+
+
+/*  */
+
+.month {
+  padding: 75px 28px;
+  width: 92.3%;
+  /* background: #2a1542; */;
+  background-image:url(pokie.jpg);
+  text-align: center;
+}
+
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: rgb(7, 7, 7);
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  list-style: none;
+}
+
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #cfcdcd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+.weekdays li:hover{
+    background-color: rgb(255, 255, 255);
+    /* padding-top: 10px 0;
+    padding-bottom: 5px; */
+    /* padding: 10px 0;
+    margin: 0%; */
+}
+
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+}
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #0c0b0b;
+}
+.days li:hover{
+background-color: #220f3b;
+color: #fdfafa;
+
+}
+.leave{
+    background-color: #fafafa2a;
+}
+.para:hover{
+    color: #0f0e0e;
+}
+.para{
+    font-size: 48px;
+    font-weight: bold;
+   
+}
